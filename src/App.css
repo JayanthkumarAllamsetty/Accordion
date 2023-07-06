@@ -1,0 +1,44 @@
+.app {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+
+  }
+  
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }  
+  .accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .accordion-header {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    margin-top: 10px;
+  }
+  
+  .accordion-actions {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
