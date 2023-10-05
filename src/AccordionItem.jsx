@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import EditUserModal from './EditUserModal';
 import './AccordionItem.css';
 
@@ -24,7 +25,7 @@ const AccordionItem = ({ celebrity, handleEdit, handleDelete }) => {
   return (
     <div className="accordion-item">
       <div className="accordion-header" onClick={toggleAccordion}>
-        {celebrity.first} {celebrity.last}
+        {`${celebrity.first} ${celebrity.last}`}
       </div>
       {isOpen && (
         <div className="accordion-content">
